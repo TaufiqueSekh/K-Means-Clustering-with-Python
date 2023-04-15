@@ -62,6 +62,5 @@ The K-Means algorithm depends upon finding the number of clusters and data label
 
 The elbow method is used to determine the optimal number of clusters in K-means clustering. The elbow method plots the value of the cost function produced by different values of K. The below diagram shows how the elbow method works:-
 
-![Elbow method in K-Means](https://www.oreilly.com/library/view/statistics-for-machine/9781788295758/assets/995b8b58-06f1-4884-a2a1-f3648428e947.png)
-
+![image](https://user-images.githubusercontent.com/13853670/232208869-43b322cd-cb81-420a-a2ba-0c7012122c8d.png)
 We can see that if K increases, average distortion will decrease.  Then each cluster will have fewer constituent instances, and the instances will be closer to their respective centroids. However, the improvements in average distortion will decline as K increases. The value of K at which improvement in distortion declines the most is called the elbow, at which we should stop dividing the data into further clusters.
